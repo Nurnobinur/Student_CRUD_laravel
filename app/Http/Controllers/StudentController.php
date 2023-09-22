@@ -18,6 +18,7 @@ class StudentController extends Controller
             $this->data["message"]=Session()->get("message");
         }
         return view("showstudent.show",$this->data);
+        /*hi bangladeh*/
     }
 
     /**
